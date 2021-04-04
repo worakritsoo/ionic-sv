@@ -41,5 +41,7 @@
   "/ionic/Thumbnails",
   "/ionic/Timeline",
   "/ionic/Toggle",
-  "/ionic/Toolbar"
+  "/ionic/Toolbar",
+  "/thebox/Discover",
+  "/thebox/Search"
 ]

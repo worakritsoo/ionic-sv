@@ -20,11 +20,8 @@ import { IonicShowModal } from "../services/IonicControllers";
 
 import localforage from "localforage";
 
-import SourceViewer from "../components/SourceViewer.svelte";
 import Menu from "../components/Menu.svelte";
 
-import CookieJar from "../components/CookieJar.svelte";
-import RateMe from "../components/RateMe.svelte";
 
 // source viewer and pulsating class for the FAB
 let pulseSourceViewer = false;

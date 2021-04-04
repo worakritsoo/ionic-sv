@@ -5,8 +5,8 @@
   class:menuhide="{hideMenu}"
 >
   {#if menuItems.length > 0}
-    <ion-header  collapse="true">
-      <ion-toolbar >
+    <ion-header collapse="true">
+      <ion-toolbar>
         <ion-title>Menu</ion-title>
       </ion-toolbar>
     </ion-header>
@@ -17,7 +17,7 @@
             on:click="{() => {
               closeAndNavigate(menuItem.url);
             }}"
-          >
+          > 
             <ion-icon
               name="{menuItem.icon}"
               slot="start"
